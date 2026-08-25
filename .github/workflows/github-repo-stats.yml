@@ -20,7 +20,9 @@ jobs:
           - playground
     steps:
       - name: run-ghrs
-        uses: jgehrcke/github-repo-stats@306db38ad131cab2aa5f2cd3062bf6f8aa78c1aa # v1.4.2
+        # jgehrcke/github-repo-stats hasn't created a git tag or GitHub Release recently,
+        # but instead maintains a `RELEASE` branch; this hash tracks its latest commit.
+        uses: jgehrcke/github-repo-stats@d80572c9029636cd0e97e3a79e7a9c293bea3b02
         with:
           repository: roostorg/${{ matrix.repo }}
           ghtoken: ${{ secrets.ghrs_github_api_token }}
