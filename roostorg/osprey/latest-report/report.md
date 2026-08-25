@@ -1,5 +1,5 @@
 % Statistics for roostorg/osprey
-% Generated for [roostorg/osprey](https://github.com/roostorg/osprey) with [jgehrcke/github-repo-stats](https://github.com/jgehrcke/github-repo-stats) at 2026-08-25 21:51 UTC.
+% Generated for [roostorg/osprey](https://github.com/roostorg/osprey) with [jgehrcke/github-repo-stats](https://github.com/jgehrcke/github-repo-stats) at 2026-08-25 23:52 UTC.
 
 
 ## Views
@@ -79,7 +79,7 @@ respond slowly to change (narrow peaks are smoothed out).
 
 <div id="chart_referrers_top_n_alltime" class="full-width-chart"></div>
 
-Top 15 referrers: 01: `github.com`, 02: `Google`, 03: `discord.com`, 04: `roost.tools`, 05: `chatgpt.com`, 06: `go.bsky.app`, 07: `Bing`, 08: `bsky.app`, 09: `DuckDuckGo`, 10: `robust-open-online-safety-tools.breezy.hr`
+Top 15 referrers: 01: `github.com`, 02: `Google`, 03: `discord.com`, 04: `roost.tools`, 05: `chatgpt.com`, 06: `go.bsky.app`, 07: `Bing`, 08: `DuckDuckGo`, 09: `robust-open-online-safety-tools.breezy.hr`, 10: `bsky.app`
 
 
 
