@@ -25,4 +25,5 @@ jobs:
         uses: jgehrcke/github-repo-stats@d80572c9029636cd0e97e3a79e7a9c293bea3b02
         with:
           repository: roostorg/${{ matrix.repo }}
+          ghpagesprefix: https://roostorg.github.io/stats
           ghtoken: ${{ secrets.ghrs_github_api_token }}
