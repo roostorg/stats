@@ -1,0 +1,2 @@
+# stats
+Git repository stats
