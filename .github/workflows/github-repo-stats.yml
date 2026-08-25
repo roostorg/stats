@@ -1,3 +1,4 @@
+name: Stats
 on:
   schedule:
     # Towards the end of the day for meaningful most recent data point
