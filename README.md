@@ -7,4 +7,5 @@ GitHub stats over time for ROOST repos
 - [coop](roostorg/coop/latest-report/report.html)
 - [coop-integration-example](roostorg/coop-integration-example/latest-report/report.html)
 - [osprey](roostorg/osprey/latest-report/report.html)
+- [model-community](roostorg/model-community/latest-report/report.html)
 - [playground](roostorg/playground/latest-report/report.html)
