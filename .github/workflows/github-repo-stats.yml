@@ -3,6 +3,10 @@ on:
   schedule:
     # Towards the end of the day for meaningful most recent data point
     - cron: "45 23 * * *"
+  push:
+    branches: ['main']
+    paths:
+      - '.github/workflows/github-repo-stats.yml'
   workflow_dispatch:
 
 jobs:
