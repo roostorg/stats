@@ -1,0 +1,25 @@
+on:
+  schedule:
+    # Towards the end of the day for meaningful most recent data point
+    - cron: "45 23 * * *"
+  workflow_dispatch:
+
+jobs:
+  stats:
+    name: github-repo-stats
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        repo:
+          - awesome-safety-tools
+          - community
+          - coop
+          - coop-integration-example
+          - osprey
+          - playground
+    steps:
+      - name: run-ghrs
+        uses: jgehrcke/github-repo-stats@306db38ad131cab2aa5f2cd3062bf6f8aa78c1aa # v1.4.2
+        with:
+          repository: roostorg/${{ matrix.repo }}
+          ghtoken: ${{ secrets.ghrs_github_api_token }}
